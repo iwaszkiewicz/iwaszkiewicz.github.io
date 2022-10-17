@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- https://login.microsoftonline.com/static/tenant/templates/AzureBlue/unified.cshtml -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+			<title>Log in - 340Basics</title>
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i" type="font/collection" rel="stylesheet">
+				<link href="login.css" rel="stylesheet" type="text/css"/>
+			</head>
+			<body>
+				<main>
+					<div class="container">
+						<div class="logo-container">
+							<img class="logo" src="./images/zentro-logo.png" alt="Zentro Logo" height="85" draggable="false">
+			</div>
+							<form method="post" action="/Account/Login">
+								<div class="field-container">
+									<input data-test-id="login-page-username-textbox" placeholder="Username" autofocus required type="text" id="Input_Username" name="Input.Username" value="">
+										<span/>
+									</div>
+									<div class="field-container">
+										<input data-test-id="login-page-password-field" placeholder="Password" required type="password" id="Input_Password" name="Input.Password">
+											<span/>
+										</div>
+										<div class="field-container">
+											<label class="checkbox">
+												<input type="checkbox" id="Input_RememberMe" name="Input.RememberMe" value="true">
+            Remember me?
+        </label>
+											</div>
+											<input type="hidden" id="ReturnUrl" name="ReturnUrl" value="https://portico-preprod.340basics.com"/>
+											<button type="submit" data-test-id="login-page-loginbutton-submit">Login</button>
+											<a href="/account/forgotpassword">Forgot your password?</a>
+											<input name="Input.RememberMe" type="hidden" value="false"/>
+										</div>
+									</main>
+								</body>
+							</html>
