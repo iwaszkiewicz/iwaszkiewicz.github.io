@@ -19,18 +19,17 @@
     line-height: 1.3;
 }
 
-.error.pageLevel {
-    background: #ffeaae;
-    border: 1px solid #ad8d67;
-    padding: 0 10px;
-    margin-bottom: 16px;
-    display: flex !important;
+.error.pageLevel>p:empty {
+    display: none;
 }
 
 .error.pageLevel>p {
     color: var(--error-color);
     line-height: 1.3;
-    padding: 0;
+    background: #ffeaae;
+    border: 1px solid #ad8d67;
+    padding: 0 10px;
+    margin-bottom: 16px;
 }
 
 .error.pageLevel>p:before {
