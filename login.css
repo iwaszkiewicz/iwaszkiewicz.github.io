@@ -11,6 +11,37 @@
     display: none;
 }
 
+.password-label #forgotPassword {
+    position: absolute;
+    bottom: 0;
+    clear: right;
+    cursor: pointer;
+    text-align: right;
+}
+
+.error{
+    color: var(--error-color);
+}
+
+.error.itemLevel {
+    
+    line-height: 1.3;
+}
+
+.error.pageLevel {
+    background: #ffeaae;
+    border: 1px solid #ad8d67;
+    padding: 0 10px;
+}
+
+.error.pageLevel>p {
+    color: var(--error-color);
+    line-height: 1.3;
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
 html {
     -webkit-text-size-adjust: 100%;
     line-height: 1.15;
