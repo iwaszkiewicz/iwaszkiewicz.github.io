@@ -11,14 +11,6 @@
     display: none;
 }
 
-.password-label #forgotPassword {
-    position: absolute;
-    bottom: 0;
-    clear: right;
-    cursor: pointer;
-    text-align: right;
-}
-
 .error{
     color: var(--error-color);
 }
@@ -109,9 +101,18 @@ main .container {
 
 .entry-item {
     position: relative;
+    padding-bottom: 6px;
 }
 .entry-item:not(:first-of-type) {
     margin-top: 16px;
+}
+
+.password-label #forgotPassword {
+    position: absolute;
+    bottom: 0;
+    clear: right;
+    cursor: pointer;
+    text-align: right;
 }
 
 .error.itemLevel {
