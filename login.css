@@ -101,7 +101,9 @@ main .container {
 
 .entry-item {
     position: relative;
-    padding-bottom: 6px;
+}
+.entry-item:last-of-type {
+    padding-bottom: 32px;
 }
 .entry-item:not(:first-of-type) {
     margin-top: 16px;
