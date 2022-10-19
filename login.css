@@ -102,7 +102,7 @@ main .container {
 .entry-item {
     position: relative;
 }
-.entry-item:last-of-type {
+.entry-item:nth-child(2) {
     padding-bottom: 32px;
 }
 .entry-item:not(:first-of-type) {
