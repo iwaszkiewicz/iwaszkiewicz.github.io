@@ -118,10 +118,6 @@ main .container {
     min-height: 16px;
 }
 
-.entry-item:nth-child(2) {
-    border: 2px solid #e02702;
-}
-
 .entry-item:nth-child(2) .error.itemLevel>p {
     margin-bottom: 0;
 }
