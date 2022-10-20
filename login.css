@@ -118,7 +118,7 @@ main .container {
     min-height: 16px;
 }
 
-.error.itemLevel>p:last-of-type {
+.error.itemLevel:last-child>p {
     margin-bottom: 0;
 }
 
