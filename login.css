@@ -118,7 +118,7 @@ main .container {
     min-height: 16px;
 }
 
-.entry-item:last-of-type .error.itemLevel>p {
+.entry-item:last-of-type {
     border: 2px solid #e02702;
 }
 
