@@ -115,12 +115,13 @@ main .container {
 
 .error.itemLevel>p {
     color: var(--error-color);
-    background:85rgba(255, 233, 174, 0.7);
+    background: rgba(255, 233, 174, 0.7);
     border: 1px solid #ad8d67;
     font-size: 12px;
     padding: 3px 16px;
     display: flex;
     align-items: baseline;
+    min-height: 16px;
 }
 .error.itemLevel>p:before {
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+DQogIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+DQogICAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9IiNFMDI3MDIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNOCA0djUiLz4NCiAgICA8Y2lyY2xlIGN4PSI4IiBjeT0iMTEuNzMyIiByPSIxIiBmaWxsPSIjRTAyNzAyIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0icm90YXRlKC0zMCA4IDExLjczMikiLz4NCiAgICA8Y2lyY2xlIGN4PSI4IiBjeT0iOCIgcj0iNyIgc3Ryb2tlPSIjRTAyNzAyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4NCiAgPC9nPg0KPC9zdmc+DQo=) no-repeat;
