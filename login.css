@@ -119,6 +119,10 @@ main .container {
 }
 
 .entry-item:last-of-type .error.itemLevel>p {
+    border: 2px solid #e02702;
+}
+
+.entry-item:last-of-type .error.itemLevel>p {
     margin-bottom: 0;
 }
 
