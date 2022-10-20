@@ -80,10 +80,6 @@ main .container {
     color: var(--error-color);
 }
 
-.error.itemLevel {
-    line-height: 1.3;
-}
-
 .error.pageLevel>p:empty {
     display: none;
 }
@@ -105,6 +101,10 @@ main .container {
     padding-right: 16px;
 }
 
+.error.itemLevel {
+    line-height: 1.3;
+}
+
 .error.itemLevel input {
     height: 64px;
 }
@@ -118,7 +118,7 @@ main .container {
     min-height: 16px;
 }
 
-.error.itemLevel:last-child>p {
+.entry-item:last-child .error.itemLevel>p {
     margin-bottom: 0;
 }
 
