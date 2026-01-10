@@ -569,7 +569,7 @@ const drawLidl = (lat, lng) => {
   }).addTo(lidls);
 };
 
-const drawSchool = (lat, lng, rank) => {
+const drawHouse = (lat, lng, rank) => {
   const icon = makeSchoolIcon(rank ?? 80);
 
   L.marker([lat, lng], { icon }).addTo(schools);
@@ -597,30 +597,22 @@ const drawBlueLineMetroStation = (lat, lng) => {
 //#endregion draw primitives
 
 //#region layer content methods
-const drawSchools = () => {
+const drawHouses = () => {
   // Капнист
-  //drawSchool(50.457518, 30.437450, 30);
+  //drawHouse(50.457518, 30.437450, 30);
   // Борщагівська
-  //drawSchool(50.448460, 30.469165, 23);
+  //drawHouse(50.448460, 30.469165, 23);
   // Havela 83d
-  drawSchool(50.42768471257935, 30.42043054735181, 50);
+  drawHouse(50.42768471257935, 30.42043054735181, 50);
   // Алекси Тихого
-  drawSchool(50.450133, 30.429801, 44);
-  // Мирослава
-  drawSchool(50.443450265082895, 30.411644450835645, 40);
+  //drawHouse(50.450133, 30.429801, 44);
   // Yaroslava Ivashkevycha St, 10
-  drawSchool(50.50499181598968, 30.45451828186324, 40);
-  // Vasylenko 23a
-  //drawSchool(50.441807, 30.425646, 43);
-  // Baidy-Vishnevetskoho St, 21
-  drawSchool(50.515054, 30.439462, 60);
-  // Kurbasa 5
-  //drawSchool(50.429826, 30.388919, 46);
+  //drawHouse(50.50499181598968, 30.45451828186324, 40);
+  // Vasylenko 11
+  drawHouse(50.4453642071018, 30.422396063642054, 41);
 
-  // Petropavlivska 38
-  drawSchool(50.48369846842734, 30.459448014550244, 33);
-  // Danyla Shcherbakivskoho St, 53
-  drawSchool(50.4763522163916, 30.40524246289106, 43);
+  // Heroyiv Kosmosu 1V
+  drawHouse(50.43178710512602, 30.388514634334157, 50);
 };
 
 const drawLidls = () => {
@@ -719,7 +711,7 @@ const drawMetro = () => {
 };
 //#endregion layer content methods
 
-drawSchools();
+drawHouses();
 //drawLidls();
 //drawLuxmeds();
 drawMetro();
